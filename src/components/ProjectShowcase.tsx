@@ -1,7 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { ExternalLink, Play, Code, Users } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 import royalClashImage from "@/assets/royal-clash-arena.jpg";
 
 const ProjectShowcase = () => {
@@ -35,48 +34,11 @@ const ProjectShowcase = () => {
                     Royal Clash Arena
                   </h3>
                   <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                    An epic medieval strategy game that combines tactical combat with resource management. 
-                    Players command mighty armies, build formidable castles, and engage in intense PvP battles 
-                    across beautifully crafted fantasy realms.
+                    A fun game inspired by Supercell's Clash Royale
                   </p>
                 </div>
 
-                <div className="mb-8">
-                  <h4 className="text-sm font-semibold text-primary mb-3 uppercase tracking-wide">
-                    Technologies Used
-                  </h4>
-                  <div className="flex flex-wrap gap-2">
-                    <Badge variant="secondary">Unity 3D</Badge>
-                    <Badge variant="secondary">C#</Badge>
-                    <Badge variant="secondary">Photon Networking</Badge>
-                    <Badge variant="secondary">MySQL</Badge>
-                    <Badge variant="secondary">Blender</Badge>
-                  </div>
-                </div>
-
-                <div className="grid grid-cols-3 gap-4 mb-8 text-center">
-                  <div className="p-4 bg-secondary/50 rounded-lg">
-                    <Users className="mx-auto mb-2 text-primary" size={24} />
-                    <p className="text-2xl font-bold text-foreground">50K+</p>
-                    <p className="text-sm text-muted-foreground">Players</p>
-                  </div>
-                  <div className="p-4 bg-secondary/50 rounded-lg">
-                    <Play className="mx-auto mb-2 text-primary" size={24} />
-                    <p className="text-2xl font-bold text-foreground">4.8</p>
-                    <p className="text-sm text-muted-foreground">Rating</p>
-                  </div>
-                  <div className="p-4 bg-secondary/50 rounded-lg">
-                    <Code className="mx-auto mb-2 text-primary" size={24} />
-                    <p className="text-2xl font-bold text-foreground">2 Years</p>
-                    <p className="text-sm text-muted-foreground">Development</p>
-                  </div>
-                </div>
-
-                <div className="flex flex-col sm:flex-row gap-4">
-                  <Button className="bg-gradient-primary hover:shadow-glow transition-all duration-300 flex-1">
-                    <Play className="mr-2" size={16} />
-                    Play Now
-                  </Button>
+                <div className="flex justify-center">
                   <Button variant="outline" className="border-primary/30 hover:border-primary hover:bg-primary/10 transition-all duration-300">
                     <ExternalLink className="mr-2" size={16} />
                     Learn More

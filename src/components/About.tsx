@@ -1,29 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Code, Gamepad2, Palette, Zap } from "lucide-react";
 
 const About = () => {
-  const skills = [
-    {
-      icon: <Gamepad2 className="text-primary" size={32} />,
-      title: "Game Development",
-      description: "Unity 3D, Unreal Engine, and custom game engines with focus on performance and player experience"
-    },
-    {
-      icon: <Code className="text-accent" size={32} />,
-      title: "Programming",
-      description: "C#, C++, JavaScript, and Python with expertise in game architecture and optimization"
-    },
-    {
-      icon: <Palette className="text-primary" size={32} />,
-      title: "Game Design",
-      description: "Level design, gameplay mechanics, and user experience with emphasis on engagement"
-    },
-    {
-      icon: <Zap className="text-accent" size={32} />,
-      title: "Performance",
-      description: "Optimization, debugging, and scalable solutions for complex gaming systems"
-    }
-  ];
 
   return (
     <section className="py-20 bg-background">
@@ -33,8 +10,7 @@ const About = () => {
             About Me
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            With a passion for creating immersive digital worlds, I bring together technical expertise 
-            and creative vision to build games that captivate and inspire players worldwide.
+            I am an energetic student ready to make fun games for people to enjoy
           </p>
         </div>
 
@@ -61,26 +37,6 @@ const About = () => {
           </Card>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {skills.map((skill, index) => (
-            <Card 
-              key={index} 
-              className="bg-card/50 backdrop-blur-sm border-border/50 shadow-card hover:shadow-glow transition-all duration-300 hover:-translate-y-2 group"
-            >
-              <CardContent className="p-6 text-center">
-                <div className="mb-4 group-hover:scale-110 transition-transform duration-300">
-                  {skill.icon}
-                </div>
-                <h3 className="text-xl font-semibold mb-3 text-foreground">
-                  {skill.title}
-                </h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  {skill.description}
-                </p>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
       </div>
     </section>
   );

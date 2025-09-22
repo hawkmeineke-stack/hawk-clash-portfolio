@@ -28,20 +28,12 @@ const Contact = () => {
                 </p>
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                <div className="flex items-center p-4 bg-secondary/30 rounded-lg hover:bg-secondary/50 transition-colors">
+              <div className="flex justify-center mb-8">
+                <div className="flex items-center justify-center p-4 bg-secondary/30 rounded-lg hover:bg-secondary/50 transition-colors">
                   <Mail className="text-primary mr-4" size={24} />
                   <div>
                     <p className="font-semibold text-foreground">Email</p>
-                    <p className="text-sm text-muted-foreground">hawk.meineke@gamedev.com</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-center p-4 bg-secondary/30 rounded-lg hover:bg-secondary/50 transition-colors">
-                  <MessageSquare className="text-accent mr-4" size={24} />
-                  <div>
-                    <p className="font-semibold text-foreground">Discord</p>
-                    <p className="text-sm text-muted-foreground">HawkDev#2024</p>
+                    <p className="text-sm text-muted-foreground">hawk.meineke@jajags.com</p>
                   </div>
                 </div>
               </div>
