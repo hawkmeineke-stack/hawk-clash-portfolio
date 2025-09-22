@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ExternalLink } from "lucide-react";
-import royalClashImage from "@/assets/royal-clash-arena.jpg";
+import royalClashImage from "@/assets/royal-clash-arena.png";
 
 const ProjectShowcase = () => {
   return (
