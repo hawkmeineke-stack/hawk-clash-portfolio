@@ -1,5 +1,3 @@
-import { Card, CardContent } from "@/components/ui/card";
-
 const About = () => {
 
   return (
@@ -14,28 +12,6 @@ const About = () => {
           </p>
         </div>
 
-        <div className="max-w-4xl mx-auto mb-16">
-          <Card className="bg-card/50 backdrop-blur-sm border-border/50 shadow-card">
-            <CardContent className="p-8 md:p-12">
-              <div className="prose prose-lg max-w-none text-foreground/90">
-                <p className="text-lg leading-relaxed mb-6">
-                  I'm a dedicated game developer with over 5 years of experience crafting engaging 
-                  interactive experiences. My journey began with a simple love for games and evolved 
-                  into a professional pursuit of excellence in game development.
-                </p>
-                <p className="text-lg leading-relaxed mb-6">
-                  My approach combines cutting-edge technology with timeless game design principles. 
-                  I believe that great games are born from the perfect balance of innovation, 
-                  accessibility, and pure fun.
-                </p>
-                <p className="text-lg leading-relaxed">
-                  When I'm not coding or designing, you can find me exploring the latest gaming trends, 
-                  contributing to open-source projects, or mentoring aspiring game developers in the community.
-                </p>
-              </div>
-            </CardContent>
-          </Card>
-        </div>
 
       </div>
     </section>
