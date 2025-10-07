@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Mail, MessageSquare, Github, Linkedin } from "lucide-react";
+import { Mail, Github } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -47,14 +47,14 @@ const Contact = () => {
                   Send Email
                 </Button>
                 
-                <div className="flex gap-4 justify-center">
-                  <Button variant="outline" size="icon" className="border-primary/30 hover:border-primary hover:bg-primary/10">
-                    <Github size={20} />
-                  </Button>
-                  <Button variant="outline" size="icon" className="border-primary/30 hover:border-primary hover:bg-primary/10">
-                    <Linkedin size={20} />
-                  </Button>
-                </div>
+                <Button 
+                  variant="outline" 
+                  size="icon" 
+                  className="border-primary/30 hover:border-primary hover:bg-primary/10"
+                  onClick={() => window.open('https://github.com/hawkmeineke-stack', '_blank')}
+                >
+                  <Github size={20} />
+                </Button>
               </div>
             </CardContent>
           </Card>
