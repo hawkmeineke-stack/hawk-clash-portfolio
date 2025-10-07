@@ -9,14 +9,15 @@ const ProjectShowcase = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
-            Featured Project
+            My Games
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Dive into my latest creation - a strategic masterpiece that combines tactical gameplay with stunning visuals
+            Check out my game projects
           </p>
         </div>
 
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-6xl mx-auto space-y-8">
+          {/* Royal Clash Arena */}
           <Card className="bg-card/50 backdrop-blur-sm border-border/50 shadow-card hover:shadow-glow transition-all duration-500 overflow-hidden group">
             <div className="grid md:grid-cols-2 gap-0">
               <div className="relative overflow-hidden">
@@ -39,9 +40,46 @@ const ProjectShowcase = () => {
                 </div>
 
                 <div className="flex justify-center">
-                  <Button variant="outline" className="border-primary/30 hover:border-primary hover:bg-primary/10 transition-all duration-300">
+                  <Button 
+                    variant="outline" 
+                    className="border-primary/30 hover:border-primary hover:bg-primary/10 transition-all duration-300"
+                    onClick={() => window.open('https://royal-rampage-clone.lovable.app/', '_blank')}
+                  >
                     <ExternalLink className="mr-2" size={16} />
-                    Learn More
+                    Play Game
+                  </Button>
+                </div>
+              </CardContent>
+            </div>
+          </Card>
+
+          {/* Snake */}
+          <Card className="bg-card/50 backdrop-blur-sm border-border/50 shadow-card hover:shadow-glow transition-all duration-500 overflow-hidden group">
+            <div className="grid md:grid-cols-2 gap-0">
+              <div className="relative overflow-hidden bg-gradient-to-br from-primary/20 to-primary/5">
+                <div className="w-full h-full flex items-center justify-center p-12">
+                  <div className="text-6xl md:text-8xl">🐍</div>
+                </div>
+              </div>
+              
+              <CardContent className="p-8 md:p-12 flex flex-col justify-center">
+                <div className="mb-6">
+                  <h3 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">
+                    Snake
+                  </h3>
+                  <p className="text-muted-foreground text-lg leading-relaxed mb-6">
+                    A classic snake game with a modern twist
+                  </p>
+                </div>
+
+                <div className="flex justify-center">
+                  <Button 
+                    variant="outline" 
+                    className="border-primary/30 hover:border-primary hover:bg-primary/10 transition-all duration-300"
+                    onClick={() => window.open('https://slither-studio-game.lovable.app', '_blank')}
+                  >
+                    <ExternalLink className="mr-2" size={16} />
+                    Play Game
                   </Button>
                 </div>
               </CardContent>
