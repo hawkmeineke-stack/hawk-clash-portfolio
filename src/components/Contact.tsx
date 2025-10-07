@@ -33,7 +33,7 @@ const Contact = () => {
                   <Mail className="text-primary mr-4" size={24} />
                   <div>
                     <p className="font-semibold text-foreground">Email</p>
-                    <p className="text-sm text-muted-foreground">meineke.professional@gmail.com</p>
+                    <p className="text-sm text-muted-foreground">meinekeproffesional@gmail.com</p>
                   </div>
                 </div>
               </div>
@@ -41,7 +41,7 @@ const Contact = () => {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button 
                   className="bg-gradient-primary hover:shadow-glow transition-all duration-300 flex items-center"
-                  onClick={() => window.open('https://mail.google.com/mail/u/0/#inbox?compose=DmwnWsTRSZrKfszmqksBzktNbKmkWvlKcgMrZRscPzlxqdvrTWfvgQZvFwhnsbxWnpXknFRLvlwL', '_blank')}
+                  onClick={() => window.open('https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRqjKwCSCbCCCQkPvXpxGVhdstqmlGLnQmXKdbzfmtmBfrJXLCtfcpLkNqmTwqjClvvVzKQ', '_blank')}
                 >
                   <Mail className="mr-2" size={16} />
                   Send Email
