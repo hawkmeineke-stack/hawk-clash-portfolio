@@ -2,6 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ExternalLink } from "lucide-react";
 import royalClashImage from "@/assets/royal-clash-arena.png";
+import snakeGameImage from "@/assets/snake-game.png";
 
 const ProjectShowcase = () => {
   return (
@@ -56,10 +57,13 @@ const ProjectShowcase = () => {
           {/* Snake */}
           <Card className="bg-card/50 backdrop-blur-sm border-border/50 shadow-card hover:shadow-glow transition-all duration-500 overflow-hidden group">
             <div className="grid md:grid-cols-2 gap-0">
-              <div className="relative overflow-hidden bg-gradient-to-br from-primary/20 to-primary/5">
-                <div className="w-full h-full flex items-center justify-center p-12">
-                  <div className="text-6xl md:text-8xl">🐍</div>
-                </div>
+              <div className="relative overflow-hidden">
+                <img 
+                  src={snakeGameImage} 
+                  alt="Snake game - Classic arcade game"
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-r from-background/80 to-transparent md:from-transparent md:to-background/80"></div>
               </div>
               
               <CardContent className="p-8 md:p-12 flex flex-col justify-center">
@@ -68,7 +72,7 @@ const ProjectShowcase = () => {
                     Snake
                   </h3>
                   <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                    A classic snake game with a modern twist
+                    A classic snake game
                   </p>
                 </div>
 
