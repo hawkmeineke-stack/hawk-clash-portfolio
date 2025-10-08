@@ -6,7 +6,8 @@ const Skills = () => {
     "Teamwork",
     "Communication",
     "Problem-Solving",
-    "Web Design"
+    "Web Design",
+    "Creative"
   ];
 
   return (
