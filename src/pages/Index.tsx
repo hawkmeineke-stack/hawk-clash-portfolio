@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import ProjectShowcase from "@/components/ProjectShowcase";
 import About from "@/components/About";
+import Skills from "@/components/Skills";
 import Contact from "@/components/Contact";
 
 const Index = () => {
@@ -8,6 +9,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <Hero />
       <About />
+      <Skills />
       <ProjectShowcase />
       <Contact />
     </div>
