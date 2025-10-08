@@ -8,7 +8,7 @@ const About = () => {
             About Me
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            I am an energetic student ready to make fun games for people to enjoy
+            I love to create games and spread my creativity. I have always been creative in my entire life. In seventh grade, I switched schools from a tiny Christian school to Jefferson Academy Secondary in Colorado. Being at Jefferson Academy has completely changed my life for the better, allowing me to meet new people and learn new things. I began being interested in game development in eighth grade by looking for ways to display my creativity and ideas. This also led to my hobbies of drawing and writing as well.
           </p>
         </div>
 
