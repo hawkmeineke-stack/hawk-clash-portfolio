@@ -45,7 +45,7 @@ const ProjectShowcase = () => {
                   <Button 
                     variant="outline" 
                     className="border-primary/30 hover:border-primary hover:bg-primary/10 transition-all duration-300"
-                    onClick={() => window.open('https://royal-rampage-clone.lovable.app/', '_blank')}
+                    onClick={() => window.open('https://royalclasharena.lovable.app/', '_blank')}
                   >
                     <ExternalLink className="mr-2" size={16} />
                     Play Game
